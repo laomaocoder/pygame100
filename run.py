@@ -40,7 +40,7 @@ class Game(object):
         self.last_time = pygame.time.get_ticks()
         self.is_pause = False
         self.is_draw = True
-        self.score_font = pygame.font.SysFont("Calibri", 130, True)
+        self.score_font = pygame.font.SysFont("是男人就下一百层", 130, True)
 
     def bind_key(self, key, action):
         if isinstance(key, list):
